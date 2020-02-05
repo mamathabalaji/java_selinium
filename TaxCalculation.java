@@ -32,13 +32,14 @@ public class TaxCalculation {
   {  if(a<=5)
      {int taxdsal=(a-0);
        System.out.println(taxdsal);
+       System.out.println("No tax deduction for sal between 1 to 5 lakh");
      }
        
      else if(a<=10)
      {
     	int taxdsal=(int)(a-(a*t2));
     	System.out.println(taxdsal);
-    	
+    	System.out.println(" tax deduction for sal between 5 to 10 lakh is 10%" + taxdsal);
      }
      else if(a<=20)
      {
