@@ -21,7 +21,7 @@ public class LogicalOperator {
         
         
        Scanner sc=new Scanner(System.in);
-       sc.
+      
     		   
 	}
 

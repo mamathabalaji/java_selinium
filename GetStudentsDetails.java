@@ -1,6 +1,8 @@
 package day1;
 
- class GetStudentDetails
+import java.util.Scanner;
+
+class GetStudentDetails
 		{
 		      public static void main(String args[])
 		      {

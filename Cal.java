@@ -1,7 +1,8 @@
 package day1;
 
+import java.util.Scanner;
 
-public class CalculateUserInput {
+public class Cal {
 
 	public static void main(String[] args) {
 
@@ -13,7 +14,7 @@ public class CalculateUserInput {
 		System.out.println("Enter 2nd number: ");
 		int num2 = sc.nextInt();
 		// Class referance //Object of the class
-		CalculateUserInput ref = new CalculateUserInput();
+		Cal ref = new Cal();
 		ref.addnum(num1, num2);
 		ref.sub(num1, num2);
 		ref.div(num1, num2);
@@ -46,3 +47,8 @@ public class CalculateUserInput {
 	public void mul(int a, int b) {
 		int mul = a * b;
 		System.out.println("Mul of " + a + " and " + b + " is---> " + mul);
+	}
+	
+}
+		
+		
